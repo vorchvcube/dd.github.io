@@ -798,8 +798,8 @@ ul li {
     .direction-l .flag:before,
     .direction-r .flag:before {
         position: absolute;
-        top: -30px;
-        left: 50%;
+        top: -18px;
+        left: 52%;
         content: ' ';
         display: block;
         width: 12px;
@@ -890,8 +890,15 @@ ul li {
 
 }
 @media screen and (max-width: 768px) {
-
-
+.top_bar_left {
+    float: none !important;
+}
+    .top_bar_right {
+        top: 70px !important;
+    }
+    #rev_slider_1_1_wrapper, .revslider-initialised {
+        height: 1500px !important;
+    }
 }
 
 
