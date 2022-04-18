@@ -894,10 +894,25 @@ ul li {
     float: none !important;
 }
     .top_bar_right {
-        top: 70px !important;
     }
     #rev_slider_1_1_wrapper, .revslider-initialised {
         height: 1500px !important;
+    }
+
+    .logo {
+        display: none;!important;
+    }
+
+    .mfn-main-slider h2 {
+        font-size: 18px !important;
+    }
+    #slider-1-slide-1-layer-5 {
+        width: 100% !important;
+    }
+    .tp-rs-img {
+
+        margin: 60px auto 0 !important;
+        width: 300px !important;
     }
 }
 
