@@ -16,8 +16,8 @@ if (empty($error1) and empty($error2) and empty($error3)) {
 	$subject = $_POST['phone'];
 	$name    = $_POST['name'];
 	$email   = $_POST['email'];
-	$message = "Новая заявка, Имя: {$name}, email: {$email}, телефон: {$_POST['phone']}";
-	if (mail("mail@dd-mk.ru", $email, $message)) {
+	$message = "Имя: {$name}, email: {$email}, сообщение: {$_POST['subject']}";
+	if (mail("vcube@yandex.ru", $subject, $message)) {
 		echo "Отправлено!";
 	} else echo "Ошибка!";
 } else {

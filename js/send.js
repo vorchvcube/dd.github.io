@@ -10,7 +10,7 @@ $(function() {
             data: {
                 "name": $(".name").val(), // Имя
                 "email": $(".email").val(), // E-mail
-                "message": $(".phone").val() // Сообщение
+                "phone": $(".phone").val() // Сообщение
             },
             success: function(data) {
 
